@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học viên IT215 - Nginx Static Serve</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #f8fafc;
+        }
+        .container {
+            background: rgba(30, 41, 59, 0.85);
+            padding: 40px 50px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #38bdf8;
+            font-size: 26px;
+            margin-bottom: 25px;
+        }
+        .info-row {
+            font-size: 18px;
+            margin: 14px 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding-bottom: 8px;
+        }
+        .label {
+            color: #94a3b8;
+            font-weight: 500;
+        }
+        .value {
+            color: #f1f5f9;
+            font-weight: 600;
+        }
+        .status-badge {
+            display: inline-block;
+            background-color: #10b981;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 9999px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 25px;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BÁO CÁO NGINX REVERSE PROXY</h1>
+        <div class="info-row">
+            <span class="label">Họ và tên:</span>
+            <span class="value">Trần Đức Anh</span>
+        </div>
+        <div class="info-row">
+            <span class="label">Mã lớp:</span>
+            <span class="value">IT215</span>
+        </div>
+        <div class="info-row">
+            <span class="label">Môn học:</span>
+            <span class="value">Cloud Infrastructure & DevOps</span>
+        </div>
+        <div class="info-row">
+            <span class="label">Định tuyến:</span>
+            <span class="value">/ (Static HTML Serve)</span>
+        </div>
+        <div class="status-badge">● Nginx HTTP 200 OK</div>
+    </div>
+</body>
+</html>
